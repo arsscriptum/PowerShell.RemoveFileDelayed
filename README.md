@@ -48,7 +48,7 @@ The delayed deletion uses the __HKLM__ registry hive which is a **privileged res
 5) Right-click the PendingFileRenameOperations value and select Modify Binary Data
 6) At the very end of the binary value data, enter four zeroes 00 00 and click OK:
 
-![pendingopbinarydata](https://raw.githubusercontent.com/arsscriptum/PowerShell.Reddit.Support/main/PendingDelete/img/pendingopbinarydata.png)
+![pendingopbinarydata](https://raw.githubusercontent.com/arsscriptum/PowerShell.RemoveFileDelayed/main/img/pendingopbinarydata.png)
 
 7) Restart the computer and the specified file as well as the PendingFileRenameOperations Registry value will be deleted
 
